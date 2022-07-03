@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/topTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="UselessParent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/drawerbtn"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/roundbtn"
+            android:text="서랍"
+            android:textColor="#00b0ff"
+            android:textSize="9dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="100dp"
+            android:text="MapmoPad"
+            android:textSize="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/searchbtn"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/roundbtn"
+            android:text="돋보기"
+            android:textColor="#00b0ff"
+            android:textSize="9dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/plusbtn"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/roundbtn"
+            android:text="+"
+            android:textColor="#00b0ff"
+            android:textSize="9dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/userName"
+        android:layout_width="160dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/semicircle"
+        android:paddingRight="30dp"
+        android:text="User name"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>
